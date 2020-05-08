@@ -1,0 +1,115 @@
+.square {
+  width: 30%;
+  padding-bottom: 30%;
+  float:left;
+  margin: 1.50%;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.square:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.container {
+text-align: center
+}
+
+.navbar-light {
+  border-bottom: 1px solid #F1F1F1;
+  position: relative;
+  height: 90px;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: -22px;
+}
+
+#boxContainer {
+  width: 600px;
+  margin: 0 auto;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px !important;
+}
+
+#colorDisplay {
+  font-size: 3rem;
+}
+
+#stripe {
+  height: 30px;
+  text-align: center;
+  width: 600px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.selected {
+  background-color: rgb(64, 167, 152, .5);
+  border: 1px solid #40A798;
+  font-weight: bold;
+  color: white;
+}
+
+button:focus {
+  outline: 0px dotted !important;
+}
+
+#easy {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#easy:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#hard {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#hard:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#reset {
+  border-radius: 25px;
+  background-color: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #C0C0C0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#reset:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#message {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  width: 30%;
+}
+
+
+
